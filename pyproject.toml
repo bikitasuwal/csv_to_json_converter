@@ -1,9 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "csvtojson-bikita"
 version = "0.1.0"
-description = "CSV to JSON converter CLI tool"
-authors = [{ name = "Student Name" }]
-requires-python = ">=3.8"
+authors = [
+  { name = "Bikita Suwal", email = "bikitasuwal12@gmail.com" },
+]
+description = "A CLI tool to convert CSV files to JSON format"
+readme = "README.md"
+requires-python = ">=3.14"
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+license = { text = "MIT" }
+
+[project.urls]
+Homepage = "https://github.com/bikitasuwal/csv-to-json-converter"
+Issues = "https://github.com/bikitasuwal/csv-to-json-converter/issues"
 
 [project.scripts]
 csv_to_json = "csv_to_json.converter:main"
