@@ -1,5 +1,5 @@
 [project]
-name = "csvtojson"
+name = "csvtojson-bikita"
 version = "0.1.0"
 description = "CSV to JSON converter CLI tool"
 authors = [{ name = "Student Name" }]
