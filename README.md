@@ -1,35 +1,91 @@
-#  CSV to JSON Converter
+# CSV to JSON Converter CLI
 
-##  Description
-
-This is a simple Python program that converts data from a CSV file into JSON format using a class and functions.
+A simple and beginner-friendly command-line tool to convert CSV files into JSON format quickly and efficiently.
 
 ---
 
-##  Features
+## Features
 
-* Convert CSV file to JSON file
-* Easy to use from the command line
+* Convert CSV files to JSON format
+* Simple and interactive command-line interface
 * Uses built-in Python libraries (`csv`, `json`)
-* Clean and beginner-friendly code
+* Clean and easy-to-understand code
+* Lightweight and fast
 
 ---
 
-##  How to Use
-
-1. Run the program:
+## Installation
 
 ```bash
-python converter.py
+pip install csvtojson
 ```
 
-2. Enter the file paths when asked:
+---
+
+## Usage
+
+Run the following command:
+
+```bash
+csvtojson
+```
+
+Then enter the required file paths:
 
 ```
 Enter CSV file path:
 Enter output JSON file path:
 ```
 
-3. The JSON file will be created at the given location.
+---
+
+## Example Output
+
+```json
+[
+    {
+        "name": "John",
+        "age": "25",
+        "city": "New York"
+    },
+    {
+        "name": "Alice",
+        "age": "30",
+        "city": "London"
+    }
+]
+```
 
 ---
+
+## Project Structure
+
+```
+csv-to-json-converter/
+│
+├── csv-to-json/
+│   ├── __init__.py
+│   └── converter.py
+│
+├── pyproject.toml
+└── README.md
+```
+
+---
+
+## Contributing
+
+Contributions are welcome!
+Feel free to open issues or submit pull requests.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Author
+
+Developed by Bikita Suwal

@@ -1,3 +1,9 @@
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+[project]
+name = "csvtojson"
+version = "0.1.0"
+description = "CSV to JSON converter CLI tool"
+authors = [{ name = "Student Name" }]
+requires-python = ">=3.8"
+
+[project.scripts]
+csv_to_json = "csv_to_json.converter:main"
