@@ -17,7 +17,7 @@ A simple and beginner-friendly command-line tool to convert CSV files into JSON 
 ## Installation
 
 ```bash
-pip install csvtojson-bikita
+pip install csvtojson-bikita==0.1.0
 ```
 
 ---
